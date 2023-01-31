@@ -1,0 +1,214 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: #fff;
+}
+
+
+/* Style for navigation bar */
+.navbar ul {
+    list-style: none;
+}
+
+.navbar {
+    display: list-item;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar ul li {
+    float: left;
+    padding: 4px;
+    margin: 22px;
+
+}
+
+.navbar li a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    color: rgb(247, 0, 0);
+    text-shadow: 10px 10px 10px red;
+
+}
+
+.navbar div {
+    padding: 25px;
+    float: right;
+
+}
+
+#search {
+    font-size: 17px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px red;
+}
+
+.btn {
+    font-size: 17px;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px red;
+}
+
+.btn:hover {
+    color: white;
+    background-color: red;
+
+}
+
+/* Style for front page */
+.box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.firstHalf {
+
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding: 114px 0px; */
+    font-size: 41px;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bolder;
+    margin-top: 10%;
+  
+
+} 
+
+.background {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ac9aedf1-a687-4c5d-965c-2fc3eac84aea/ed2f162a-b9ef-43fd-8042-84978039a3ba/IN-en-20221206-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-blend-mode: darken;
+
+}
+
+
+.section{
+    margin:30px;
+    align-items: center;
+}
+
+.text-big{
+    font-size: 41px;
+    text-shadow: 2px 2px 7px red;
+    margin-bottom: 2px;
+} 
+.text-small{
+    font-size: 20px;
+    color: red;
+    
+}
+
+.box{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.list-box{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    object-fit: cover;
+    object-position: center;
+    
+  
+}
+
+.list-box li{
+    margin: 2px 13px 13px 13px;
+    box-shadow:2px 2px 5px red;
+    border-radius: 20px;
+  
+  
+}
+li img{
+    border: 1px solid red;
+    border-radius: 20px;
+}
+li .details{
+    display:  block;
+} 
+footer{ 
+    
+    height: 60px;
+    bottom: 0;
+    background-color: red;
+    padding-top: 20px;
+    box-shadow: 0px 0px 0px 4px 5px red;
+    
+}
+.text-footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}   
+
+footer div+p{
+    margin-top: 2px;;
+}
+i{
+    margin:0px 15px 4px 15px;
+    font-size: 30px;
+}
+.contact{
+    margin:10px
+}
+.text-center{
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-shadow: 2px 2px 5px red;
+    font-size: 30px;
+} 
+.form{ 
+    margin: auto;
+    width: 50%; 
+    
+}
+.form-input{
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 13px 5px;
+    font-size: 15px;
+   background-color: rgb(19, 7, 7);
+    border-radius: 10px 0 10px 0;
+    box-shadow: 2px 2px 7px red;
+    color: white;
+
+}
+
+.submit{
+    position: absolute;
+}
+
+
+
+
+
