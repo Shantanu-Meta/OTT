@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu:wght@300;400&display=swap');
+
+
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+/* https://wallpapers.com/images/hd/red-and-black-windows-logo-7q5xbihb4tzcwqbf.jpg */
+body{
+    background-image: url("https://i.pinimg.com/originals/d9/83/ea/d983ea8889adeac9c509589725956096.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} 
+
+nav{
+    display: flex;
+    align-items: center; 
+    background: linear-gradient(274deg, rgb(0 0 0) 0%, rgb(24 2 2) 52%, rgb(129 0 0) 100%);
+    /* background-color: black; */
+    top: 0;
+    height: 70px;
+    box-shadow: 0px 5px 70px black;
+    font-size: 22px;
+}  
+nav i{ 
+    margin-left: 20px;
+    color: aliceblue; 
+    border:  2px solid red;
+    padding: 10px;
+    box-shadow: 2px 2px 5px red;
+    border-radius: 0px 5px 0px 5px;
+    font-size: 35px; 
+    background-color: rgb(49, 0, 0);
+    
+}
+
+.nav-bar-items{
+    margin: 40px;
+}
+
+.nav-bar-items a{ 
+   
+   text-decoration: none; 
+   color: white;
+   margin: 0px 20px;
+   
+} 
+
+.nav-bar-items a:hover{
+    color: red;
+}  
+.search-bar{
+    margin-left: 112px;
+}
+
+#search-space{
+    border: none;
+    border-radius: 5px; 
+    font-size: 25px;
+    padding-left: 10px;
+   
+}
+
+.search-bar button{
+    font-size: 25px;
+    color:red; 
+    background-color: whitesmoke;
+    border-radius: 5px; 
+  
+}
+
+.search-bar button:hover{
+    background-color: red;
+    color: white;
+} 
+
+.main-heading{ 
+    float: left;
+    text-align: left; 
+    width: 50%;
+    margin-left: 78px;
+    margin-top: 100px;
+} 
+
+#site-name-big{
+    color: white;
+    font-family: "ubuntu";
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    text-shadow: 5px 5px 7px rgb(255, 0, 0);
+} 
+
+#welcome{
+    color: red;
+    font-size: 50px;
+    padding: 0;
+    margin: 15px 0px 0px 0px;
+    text-shadow: 5px 5px 7px rgb(47, 11, 11); 
+    color: linear-gradient(279deg, rgba(2, 0, 36, 1) 0%, rgba(5, 5, 85, 1) 52%, rgba(0, 212, 255, 1) 100%);
+} 
+
+.main-heading h3{
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 0;
+    margin-top: 10px;
+} 
+
+footer{
+    background-color: white;
+    position:fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    height: 60px; 
+    background: linear-gradient(274deg, rgb(0 0 0) 0%, rgb(24 2 2) 52%, rgb(129 0 0) 100%);
+    box-shadow: 0px -5px 70px black;
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+.formRight{
+    float: right; 
+    /* background-color: rgb(255, 250, 250); Fallback color */
+    /* background-color: rgba(183, 14, 14, 0.4); Black w/opacity/see-through */
+    background: linear-gradient(274deg, rgb(0 0 0) 0%, rgb(24 2 2) 52%, rgb(129 0 0) 100%);
+    padding: 5px;
+    margin: 100px 230px 0px 0px; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px black;
+    color: whitesmoke;
+    width: 22rem;
+    
+}  
+.name-email{
+    margin: 11px; 
+   
+}  
+.name-email label{
+    font-size: 30px;
+    /* color: white; */
+}
+.name-email input{
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+.button-logIn{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 10px; 
+   
+}  
+
+.button-logIn button{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: serif;
+    border: none;
+    border-radius: 5px;
+}
+.button-logIn button:hover{
+    background-color: red;
+    color: white;
+}
+.formRight h3{
+    font-family: 30px;
+    text-align: center;
+    
+} 
+.Alternative-SignUp{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+} 
+
+.Alternative-SignUp img{
+    margin: 0px 20px 10px 20px;
+} 
+.alreadyAcc p{
+    font-size: 20px;
+    text-align: center;
+} 
+.alreadyAcc a{
+    text-decoration: none; 
+    color: rgb(157, 255, 0);
+}
